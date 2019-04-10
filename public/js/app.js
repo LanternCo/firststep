@@ -65539,6 +65539,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var Header = function Header() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar navbar-expand-md navbar-light navbar-laravel"
@@ -65547,7 +65548,28 @@ var Header = function Header() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "navbar-brand",
     to: "/"
-  }, "Good Grief")));
+  }, "Good Grief")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "collapse navbar-collapse",
+    id: "navbarNavAltMarkup"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "navbar-nav"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    "class": "nav-item nav-link",
+    activeClassName: "active",
+    href: "/"
+  }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    "class": "nav-item nav-link",
+    activeClassName: "active",
+    href: "#"
+  }, "Features"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    "class": "nav-item nav-link",
+    activeClassName: "active",
+    href: "#"
+  }, "Pricing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
+    "class": "nav-item nav-link disabled",
+    activeClassName: "activ",
+    href: "#"
+  }, "Disabled"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);

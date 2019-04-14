@@ -65549,26 +65549,26 @@ var Header = function Header() {
     className: "navbar-brand",
     to: "/"
   }, "Good Grief")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "collapse navbar-collapse",
+    className: "collapse navbar-collapse",
     id: "navbarNavAltMarkup"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "navbar-nav"
+    className: "navbar-nav"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    "class": "nav-item nav-link",
+    className: "nav-item nav-link",
     activeClassName: "active",
-    href: "/"
+    to: "/"
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    "class": "nav-item nav-link",
+    className: "nav-item nav-link",
     activeClassName: "active",
-    href: "#"
+    to: "#"
   }, "Features"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    "class": "nav-item nav-link",
+    className: "nav-item nav-link",
     activeClassName: "active",
-    href: "#"
+    to: "#"
   }, "Pricing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["NavLink"], {
-    "class": "nav-item nav-link disabled",
+    className: "nav-item nav-link disabled",
     activeClassName: "activ",
-    href: "#"
+    to: "#"
   }, "Disabled"))));
 };
 

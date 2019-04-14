@@ -9,33 +9,33 @@ const Header = () => (
                 Good Grief
             </Link>
         </div>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
                 <NavLink
-                    class="nav-item nav-link"
+                    className="nav-item nav-link"
                     activeClassName="active"
-                    href="/"
+                    to="/"
                 >
                     Home
                 </NavLink>
                 <NavLink
-                    class="nav-item nav-link"
+                    className="nav-item nav-link"
                     activeClassName="active"
-                    href="#"
+                    to="#"
                 >
                     Features
                 </NavLink>
                 <NavLink
-                    class="nav-item nav-link"
+                    className="nav-item nav-link"
                     activeClassName="active"
-                    href="#"
+                    to="#"
                 >
                     Pricing
                 </NavLink>
                 <NavLink
-                    class="nav-item nav-link disabled"
+                    className="nav-item nav-link disabled"
                     activeClassName="activ"
-                    href="#"
+                    to="#"
                 >
                     Disabled
                 </NavLink>

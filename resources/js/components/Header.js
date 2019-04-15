@@ -14,30 +14,9 @@ const Header = () => (
                 <NavLink
                     className="nav-item nav-link"
                     activeClassName="active"
-                    to="/"
+                    to="/signin"
                 >
-                    Home
-                </NavLink>
-                <NavLink
-                    className="nav-item nav-link"
-                    activeClassName="active"
-                    to="#"
-                >
-                    Features
-                </NavLink>
-                <NavLink
-                    className="nav-item nav-link"
-                    activeClassName="active"
-                    to="#"
-                >
-                    Pricing
-                </NavLink>
-                <NavLink
-                    className="nav-item nav-link disabled"
-                    activeClassName="activ"
-                    to="#"
-                >
-                    Disabled
+                    Sign In
                 </NavLink>
             </div>
         </div>

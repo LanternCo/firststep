@@ -10,11 +10,17 @@ import Header from './Header'
 // import ProjectsList from './ProjectsList'
 import SignInPage from './SignInPage'
 import reducers from './reducers/main';
+import { AUTHENTICATED } from './actions/actions.js';
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
-
 // @TODO - clean this up. The second parameter is there for integrating with redux dev tools.
 const store = createStoreWithMiddleware(reducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
+const user = localStorage.getItem('user');
+
+if (user) {
+  store.dispatch({ type: AUTHENTICATED });
+}
 
 const LandingPage = () => {
     return <div>Landing Page</div>;

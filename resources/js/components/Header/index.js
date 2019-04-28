@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import SignOut from "./SignOut";
+import SignOut from "../SignOut";
+
+import './Header.scss';
 
 class Header extends Component {
     navbarLinks() {
@@ -23,7 +25,7 @@ class Header extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-md navbar-light navbar-laravel">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
                         Good Grief
@@ -43,7 +45,6 @@ class Header extends Component {
 }
 
 function mapStateToProps(state) {
-    console.log("mapStateToProps", state.auth.authenticated);
     return {
         authenticated: state.auth.authenticated
     };

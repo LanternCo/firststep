@@ -5,10 +5,11 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import { createStore, applyMiddleware } from "redux";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
-import Header from './Header'
+import Header from './Header';
 // import NewProject from './NewProject'
 // import ProjectsList from './ProjectsList'
-import SignInPage from './SignInPage'
+import SignInPage from './SignInPage';
+import LandingPage from './LandingPage';
 import reducers from './reducers/main';
 import { AUTHENTICATED } from './actions/actions.js';
 
@@ -22,9 +23,9 @@ if (user) {
   store.dispatch({ type: AUTHENTICATED });
 }
 
-const LandingPage = () => {
-    return <div>Landing Page</div>;
-};
+// const LandingPage = () => {
+//     return <div>Landing Page</div>;
+// };
 
 const CreateAccountPage = () => {
     return <div>Create Account Page</div>;
